@@ -1,0 +1,10 @@
+#main{
+    display: flex;
+    flex-direction: row;
+}
+
+/* #sidebar{
+    display: flex;
+    flex-grow: 1;
+    min-height: 1000px;
+} */
