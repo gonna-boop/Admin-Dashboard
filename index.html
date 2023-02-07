@@ -20,15 +20,15 @@
 
 <div id="main">
     <div id="sidebar">
-       <div class="container-fluid-sm border">
-        <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px;">
+       <div class="container-fluid-sm d-flex" id="sidebar2">
+        <div class="d-flex flex-column flex-grow-1 p-3 bg-light" style="width: 280px;">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
               <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
             </a>
             <hr>
             <ul class="nav nav-pills flex-column mb-auto">
               <li class="nav-item">
-                <a href="#" class="nav-link active" aria-current="page">
+                <a href="#" class="nav-link link-dark" aria-current="page">
                   <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"/></svg>
                   Home
                 </a>
@@ -42,19 +42,19 @@
               <li>
                 <a href="#" class="nav-link link-dark">
                   <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"/></svg>
-                  Orders
+                  Riders
                 </a>
               </li>
               <li>
                 <a href="#" class="nav-link link-dark">
                   <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"/></svg>
-                  Products
+                  Pro Shop
                 </a>
               </li>
               <li>
                 <a href="#" class="nav-link link-dark">
                   <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
-                  Customers
+                  Events
                 </a>
               </li>
             </ul>
@@ -62,7 +62,7 @@
             <div class="dropdown">
               <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
-                <strong>mdo</strong>
+                <strong>Zeb P</strong>
               </a>
               <ul class="dropdown-menu text-small shadow">
                 <li><a class="dropdown-item" href="#">New project...</a></li>
@@ -86,9 +86,9 @@
                 </a>
         
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                  <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
-                  <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
-                  <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
+                  <li><a href="#" class="nav-link px-2 link-secondary">Employee Portal</a></li>
+                  <li><a href="#" class="nav-link px-2 link-dark">What We Carry</a></li>
+                  <li><a href="#" class="nav-link px-2 link-dark">Accessories</a></li>
                   <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
                 </ul>
         
@@ -114,9 +114,9 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Odin SnowSports</h1>
                         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+                                class="fas fa-download fa-sm text-white-50"></i> Rider Page</a>
                     </div>
 
                     <!-- Content Row -->
@@ -129,8 +129,8 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                Earnings (Monthly)</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+                                                Total Riders (22-23 Season)</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">7,251</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-calendar fa-2x text-gray-300"></i>
@@ -147,8 +147,8 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                                Earnings (Annual)</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                                                New Pro Riders Signed (22-23 Season)</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">7</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
@@ -164,7 +164,7 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tasks
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Time left this season
                                             </div>
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col-auto">
@@ -194,7 +194,7 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
-                                                Pending Requests</div>
+                                                Pro Competition Awards</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
                                         </div>
                                         <div class="col-auto">
@@ -218,31 +218,31 @@
                                     <h6 class="m-0 font-weight-bold text-primary">Projects</h6>
                                 </div>
                                 <div class="card-body">
-                                    <h4 class="small font-weight-bold">Server Migration <span
-                                            class="float-right">20%</span></h4>
+                                    <h4 class="small font-weight-bold">Sign 10 New Pro Riders <span
+                                            class="float-right">70%</span></h4>
                                     <div class="progress mb-4">
-                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 20%"
-                                            aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 70%"
+                                            aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <h4 class="small font-weight-bold">Sales Tracking <span
+                                    <h4 class="small font-weight-bold">Sell All Remaining Snowboards from 21-22 season <span
                                             class="float-right">40%</span></h4>
                                     <div class="progress mb-4">
                                         <div class="progress-bar bg-warning" role="progressbar" style="width: 40%"
                                             aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <h4 class="small font-weight-bold">Customer Database <span
+                                    <h4 class="small font-weight-bold">Sell All Remaining Skiis + Poles from 21-22 season <span
                                             class="float-right">60%</span></h4>
                                     <div class="progress mb-4">
                                         <div class="progress-bar" role="progressbar" style="width: 60%"
                                             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <h4 class="small font-weight-bold">Payout Details <span
+                                    <h4 class="small font-weight-bold">Complete Pro Rider Gear Design <span
                                             class="float-right">80%</span></h4>
                                     <div class="progress mb-4">
                                         <div class="progress-bar bg-info" role="progressbar" style="width: 80%"
                                             aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <h4 class="small font-weight-bold">Account Setup <span
+                                    <h4 class="small font-weight-bold">Webpage Setup <span
                                             class="float-right">Complete!</span></h4>
                                     <div class="progress">
                                         <div class="progress-bar bg-success" role="progressbar" style="width: 100%"
@@ -258,33 +258,17 @@
                             <!-- Illustrations -->
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Illustrations</h6>
+                                    <h6 class="m-0 font-weight-bold text-primary">Snowboards</h6>
                                 </div>
                                 <div class="card-body">
                                     <div class="text-center">
-                                        <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;"
-                                            src="img/undraw_posting_photo.svg" alt="...">
+                                        <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem; height: 250px;"
+                                            src="pics/snowboard.jpg" alt="...">
                                     </div>
-                                    <p>Add some quality, svg illustrations to your project courtesy of <a
-                                            target="_blank" rel="nofollow" href="https://undraw.co/">unDraw</a>, a
-                                        constantly updated collection of beautiful svg images that you can use
-                                        completely free and without attribution!</p>
-                                    <a target="_blank" rel="nofollow" href="https://undraw.co/">Browse Illustrations on
-                                        unDraw &rarr;</a>
-                                </div>
-                            </div>
-
-                            <!-- Approach -->
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Development Approach</h6>
-                                </div>
-                                <div class="card-body">
-                                    <p>SB Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce
-                                        CSS bloat and poor page performance. Custom CSS classes are used to create
-                                        custom components and custom utility classes.</p>
-                                    <p class="mb-0">Before working with this theme, you should become familiar with the
-                                        Bootstrap framework, especially the utility classes.</p>
+                                    <p>Check out our snowboards now!  As an employee, you will have access to discounted equiptment, 
+                                        as well as the ability to pre-order models before the public gets a chance to!
+                                    </p>
+                                    <a target="_blank" rel="nofollow" href="">Click here to access the employee discount &rarr;</a>
                                 </div>
                             </div>
 
